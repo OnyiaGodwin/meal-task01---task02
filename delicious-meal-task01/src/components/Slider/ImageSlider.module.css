@@ -1,0 +1,34 @@
+.imageSlider {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.imageSlider_image {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+}
+
+.imageSlider_arrows {
+  display: flex;
+  position: absolute;
+  margin-left: 70%;
+  
+}
+
+
+.slid {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slid_active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}

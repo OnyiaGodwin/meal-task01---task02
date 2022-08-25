@@ -1,0 +1,24 @@
+.mainHeader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    background-color: #5b096b;
+    padding: 0 2rem; 
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+
+  .mainHeader > h1 {
+    display: flex;
+    margin-left: 5px;
+    font-size: 100px;
+    writing-mode: sideways-lr 90;
+    color: white;
+    padding-left: 0;
+    font-family: 'Snap ITC', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }

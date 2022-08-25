@@ -1,0 +1,36 @@
+.input {
+    margin: 10rem auto;
+    padding: 1rem;
+    width: 90%;
+    height: 90%;
+    max-width: 60rem;
+    font-size: 40pt;
+  }
+
+  .input h3 {
+    font-size: 50pt;
+    padding: 4px;
+    text-align: center;
+  }
+  
+  .input label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input input {
+    font: inherit;
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 0.15rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input input:focus {
+    outline: none;
+    border-color: #4f005f;
+  }
+
+ 

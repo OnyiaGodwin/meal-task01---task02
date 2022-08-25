@@ -1,0 +1,42 @@
+.imageSlider {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 380px;
+  width: 100%;
+  margin-top: 550px;
+  margin-bottom: 0;
+}
+
+.imageSlider_image {
+  display: flex;
+  flex-flow: row;
+  position: fixed;
+  height: 20%;
+  width: 25%;
+  margin-top: 800px;
+  margin-left: 1px;
+  margin-right: 30px;
+  border-radius: 100pt;
+  background-position: center;
+  background-size: cover;
+}
+
+.imageSlider_arrows {
+  display: flex;
+  position: absolute;
+  margin-left: 70%;
+  
+}
+
+.slid {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slid_active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}

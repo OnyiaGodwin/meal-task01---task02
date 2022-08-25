@@ -1,0 +1,17 @@
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.app {
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+
+/* .app_slides {
+  width: "500px";
+  height: "200px";
+  margin: "0 auto";
+} */
+
+

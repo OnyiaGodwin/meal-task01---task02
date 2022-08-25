@@ -1,0 +1,17 @@
+.meal {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 60rem;
+  font-size: 40pt;
+}
+
+.meal ul {
+  list-style: none;
+  padding: 1rem;
+}
+
+.meal li {
+  border: 1px solid #ccc;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}

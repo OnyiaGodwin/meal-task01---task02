@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react';
-import classes from './Header.module.css';
+
 import headerImage from '../../assets/images/header_image.jpg';
+
+import classes from './Header.module.css';
 
 function Header() {
     

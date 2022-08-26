@@ -1,4 +1,3 @@
-import React from "react";
 import abacha from "../../assets/images/Abacha_image.png";
 import egwusi_eba from "../../assets/images/eba&egwusi_image.jpg";
 import nkwobi from "../../assets/images/nkwobi_image.jpg";

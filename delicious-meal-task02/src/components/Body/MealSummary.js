@@ -1,5 +1,6 @@
-import React from 'react'
-import classes from './MealSummary.module.css'
+import React from 'react';
+
+import classes from './MealSummary.module.css';
 
 export const MealSummary = function () {
   return (

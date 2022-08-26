@@ -1,7 +1,9 @@
 import React from 'react';
+
 import { MealSummary } from '../Body/MealSummary';
-import classes from './MainHeader.module.css';
 import Navigation from './Navigation';
+
+import classes from './MainHeader.module.css';
 
 function MainHeader(props) {
   return (

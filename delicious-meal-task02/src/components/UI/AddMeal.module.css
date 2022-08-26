@@ -1,3 +1,9 @@
+.error__message {
+  font-size: 50pt;
+  height: 30%;
+  width: 30%;
+}
+
 .input {
     margin: 10rem auto;
     padding: 1rem;

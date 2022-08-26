@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+
 import AddMeal from '../UI/AddMeal'
 import { Card } from '../UI/Card'
 import MealList from '../UI/MealList'

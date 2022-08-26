@@ -1,13 +1,15 @@
 import React, { useState } from "react";
+
 import { Card } from "./Card";
 import {ErrorModal} from './ErrorModal';
-import classes from './AddMeal.module.css';
 import { Button } from "./Button";
+
+import classes from './AddMeal.module.css';
 
 function AddMeal(props) {
   const [enteredMeal, setEnteredMeal] = useState("");
   const [enteredAmount, SetEnteredAmount] = useState("");
-  const [error, setError] = useState({});
+  const [error, setError] = useState(false);
 
   const mealInputHandler = (event) => {
     setEnteredMeal(event.target.value);
@@ -43,20 +45,20 @@ function AddMeal(props) {
   };
 
   const errorHandler = () => {
-    setError({});
+    setError(false);
   };
 
   return (
     <div>
-      {!error && (
-        <ErrorModal
+      {error && (
+        <ErrorModal className={classes.error__message}
           title={error.title}
           message={error.message}
           onErrorHandler={errorHandler}
         ></ErrorModal>
       )}
 
-{error && (<Card className={classes.input}>
+{!error && (<Card className={classes.input}>
         <form onSubmit={addMealHandler}>
         <h3>Menu</h3>
           <label htmlFor="mealName">Meal Name</label>
@@ -70,7 +72,8 @@ function AddMeal(props) {
           <label htmlFor="mealAmount">Meal Amount</label>
           <input
             id={Math.random()}
-            type="text"
+            type="number"
+            min="1"
             value={enteredAmount}
             onChange={amountInputHandler}
           ></input>

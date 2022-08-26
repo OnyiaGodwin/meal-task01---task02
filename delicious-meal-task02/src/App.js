@@ -1,15 +1,15 @@
-import React, { Fragment, useState } from 'react'
-import classes from './App.module.css'
+import React, { Fragment, useState } from 'react';
+
 import Footer from './components/Footer/Footer'
 import Header from './components/Layout/Header'
 import MainHeader from './components/MainHeader/MainHeader'
 import Menu from './components/Menu/Menu'
-import { ErrorModal } from './components/UI/ErrorModal'
+
+import classes from './App.module.css'
 
 function App() {
   const [newMealList, setNewMealList] = useState([])
   const [menuOpen, setMenuOpen] = useState(false)
-  const [error, setError] = useState(false)
 
   const addMealHandler = (newMealName, newMealAmount) => {
     setNewMealList((prevMealList) => {
@@ -34,7 +34,6 @@ function App() {
 
   return (
     <Fragment className={classes.app}>
-      
       {!menuOpen && (
         <div>
           <Header />

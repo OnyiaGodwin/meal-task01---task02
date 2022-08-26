@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 
-import classes from "./Footer.module.css";
 import { SliderData } from "./Slider";
+
+import classes from "./Footer.module.css";
 
 function Footer() {
 
